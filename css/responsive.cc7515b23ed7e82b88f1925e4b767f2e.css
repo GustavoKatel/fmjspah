@@ -116,6 +116,9 @@
     left: -5%;
   }
 
+  .even-control-left {
+    right: 7%;
+  }
 
 }
 
@@ -389,7 +392,7 @@
   }
 
   .about-content p,
-  
+
   .twitter-control-left,
   .twitter-control-right {
     top: inherit;
@@ -441,6 +444,10 @@
   .contact-section {
     background-position: left 0 bottom 0;
     background-size: cover;
+  }
+
+  .even-control-left {
+    right: 7%;
   }
 
 }

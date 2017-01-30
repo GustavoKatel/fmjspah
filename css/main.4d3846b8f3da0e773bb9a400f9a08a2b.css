@@ -463,7 +463,8 @@ h2 {
 .even-control-left,
 .even-control-right {
   position: absolute;
-  font-size: 24px;
+  /*font-size: 24px;*/
+  font-size: 3em;
   color: #fff;
   top: 0;
 }
@@ -705,4 +706,8 @@ h2 {
 
 #footer a:hover {
   color:#0095d9
+}
+
+.gs {
+  font-size: 0.8em;
 }
