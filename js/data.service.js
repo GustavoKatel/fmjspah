@@ -11,7 +11,7 @@ angular.module('spah')
         palestrante: {
           nome: 'Dr. Sérgio Araújo',
           cv: '',
-          foto: 'http://192.168.1.3:8083/images/event/event1.jpg'
+          foto: 'http://dev.gsampaio.info/fmjspah/images/event/event1.jpg'
         }
       },
       {
@@ -20,7 +20,7 @@ angular.module('spah')
         palestrante: {
           nome: 'Dra. Lívia Siebra',
           cv: '',
-          foto: 'http://192.168.1.3:8083/images/event/event2.jpg'
+          foto: 'http://dev.gsampaio.info/fmjspah/images/event/event2.jpg'
         }
       },
       {
@@ -29,7 +29,7 @@ angular.module('spah')
         palestrante: {
           nome: 'À definir',
           cv: '',
-          foto: 'http://192.168.1.3:8083/images/event/event3.jpg'
+          foto: 'http://dev.gsampaio.info/fmjspah/images/event/event3.jpg'
         }
       },
       {
@@ -38,7 +38,7 @@ angular.module('spah')
         palestrante: {
           nome: 'À definir',
           cv: '',
-          foto: 'http://192.168.1.3:8083/images/event/event2.jpg'
+          foto: 'http://dev.gsampaio.info/fmjspah/images/event/event2.jpg'
         }
       }
     ]
