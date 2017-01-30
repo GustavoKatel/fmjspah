@@ -6,8 +6,8 @@ angular.module('spah')
 
     palestras: [
       {
-        nome: 'À definir',
-        data_hora: new Date('2017-03-01 14:30'),
+        nome: 'Minha palestra construtiva número 34',
+        data_hora: new Date('2017-02-01 14:30'),
         palestrante: {
           nome: 'Dr. Sérgio Araújo',
           cv: '',
