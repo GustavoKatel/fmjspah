@@ -36,7 +36,9 @@ angular.module('spah', ['ui.bootstrap'])
 
   $interval(function() {
 
-    var diff = Math.abs( $window.moment().diff(ctrl.getNextPalestra().data_hora) );
+    var date = ctrl.getNextPalestra().data_hora;
+    var date = new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes());
+    var diff = Math.abs( $window.moment().diff(date) );
 
     var duration = $window.moment.duration(diff, 'milliseconds');
 
@@ -96,9 +98,11 @@ angular.module('spah', ['ui.bootstrap'])
 
 })
 
-.controller('palestraViewCtrl', function($uibModalInstance, palestra, $log) {
+.controller('palestraViewCtrl', function($uibModalInstance, formatDate, palestra, $log) {
 
   var ctrl = this;
+
+  ctrl.formatDate = formatDate;
 
   ctrl.palestra = palestra;
 
@@ -131,7 +135,7 @@ angular.module('spah', ['ui.bootstrap'])
   ctrl.topic = '';
   ctrl.message = '';
 
-  ctrl.emailTo = 'gbritosampaio@gmail.com';
+  ctrl.emailTo = 'contato@email.com';
 
   ctrl.submitForm = function() {
     var topic = ctrl.topic || 'Contato - SPAH';
@@ -153,12 +157,18 @@ angular.module('spah', ['ui.bootstrap'])
 
 .factory('formatDate', function() {
 
+  function pad(num, size) {
+    var s = num+"";
+    while (s.length < size) s = "0" + s;
+    return s;
+  }
+
   return function(data) {
-    return data.getDate()+'/'+
-      data.getMonth()+'/'+
+    return pad(data.getDate(), 2)+'/'+
+      pad(data.getMonth()+1, 2)+'/'+
       data.getFullYear()+' '+
-      data.getHours()+'h ' +
-      data.getMinutes();
+      pad(data.getHours(), 2)+'h ' +
+      pad(data.getMinutes(), 2);
   }
 
 });

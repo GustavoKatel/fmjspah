@@ -6,39 +6,39 @@ angular.module('spah')
 
     palestras: [
       {
-        nome: 'Minha palestra construtiva número 34',
-        data_hora: new Date('2017-02-01 14:30'),
+        nome: 'A definir',
+        data_hora: new Date(2017, 1, 10, 15, 0),
         palestrante: {
           nome: 'Dr. Sérgio Araújo',
           cv: '',
-          foto: 'http://dev.gsampaio.info/fmjspah/images/event/event1.jpg'
+          foto: '/images/microfone.jpg'
         }
       },
       {
-        nome: 'À definir',
-        data_hora: new Date('2017-01-27 11:00'),
+        nome: 'Segurança do Paciente e Implicações Jurídicas',
+        data_hora: new Date(2017, 1, 6, 11, 0),
         palestrante: {
           nome: 'Dra. Lívia Siebra',
-          cv: '',
-          foto: 'http://dev.gsampaio.info/fmjspah/images/event/event2.jpg'
+          cv: 'Advogada inscrita na OAB/CE 28.897. Graduada pela Universidade Regional do Cariri. Pós-graduada em Direito Penal e Criminologia pela URCA. Pós-graduanda em Direito Médico, Hospitalar e da Saúde pela ESMECAM. Especialista em Direito Médico/Hospitalar e da Saúde.',
+          foto: '/images/palestrantes/dra.livia.jpg'
         }
       },
       {
-        nome: 'À definir',
-        data_hora: new Date(),
+        nome: 'A definir',
+        data_hora: new Date(2017, 1, 10, 15, 0),
         palestrante: {
-          nome: 'À definir',
+          nome: 'A definir',
           cv: '',
-          foto: 'http://dev.gsampaio.info/fmjspah/images/event/event3.jpg'
+          foto: '/images/microfone.jpg'
         }
       },
       {
-        nome: 'À definir',
-        data_hora: new Date(),
+        nome: 'A definir',
+        data_hora: new Date(2017, 2, 10, 15, 0),
         palestrante: {
-          nome: 'À definir',
+          nome: 'A definir',
           cv: '',
-          foto: 'http://dev.gsampaio.info/fmjspah/images/event/event2.jpg'
+          foto: '/images/microfone.jpg'
         }
       }
     ]

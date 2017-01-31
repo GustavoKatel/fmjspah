@@ -72,7 +72,7 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active">
-					<img class="img-responsive" src="images/slider/bg1.jpg" alt="slider">
+					<img class="img-responsive" src="images/cover.jpg" alt="slider">
 					<div class="carousel-caption">
 						<h2>I Simpósio sobre Segurança do Paciente em Ambientes Hospitalares  </h2>
 						<h4>II	CURSO	DE	SEGURANÇA	DO	PACIENTE	EM	AMBIENTE	HOSPITALAR</h4>
@@ -129,10 +129,12 @@
           <h3 class="modal-title" id="modal-title">Informções de palestra</h3>
       </div>
       <div class="modal-body" id="modal-body">
-        Título: {{ ctrl.palestra.nome }}<br/>
+        <h4>Título: {{ ctrl.palestra.nome }}</h4>
+        <h5>Palestrante: {{ ctrl.palestra.palestrante.nome }}</h5>
+        <h5>Hora: {{ ctrl.formatDate(ctrl.palestra.data_hora) }}</h5>
         <div class="palestrante">
           <img class="img-thumbnail img-responsive" src="{{ctrl.palestra.palestrante.foto}}" alt="palestrante-image">
-          <p>{{ ctrl.palestra.palestrante.nome }}<p/>
+          <br><br>
           {{ ctrl.palestra.palestrante.cv }}
         </div>
       </div>
@@ -157,6 +159,7 @@
 										<div class="single-event">
                       <a href="javascript:void(0);">
   											<img class="img-thumbnail img-responsive" src="{{palestra.palestrante.foto}}" alt="event-image">
+  											<h4>{{ palestra.nome }}</h4>
   											<h4>{{ palestra.palestrante.nome }}</h4>
   											<h5>{{ ctrl.formatDate(palestra.data_hora) }}</h5>
                       </a>
@@ -177,7 +180,25 @@
 	<section id="sobre" ng-controller="sobreCtrl">
 		<div class="about-content">
 				<h2>Sobre o SPAH</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>
+          O 1º Simpósio sobre Segurança do Paciente em Ambientes Hospitalares e o Segundo
+Curso de Segurança do Paciente é fruto da demanda emergente das Instituições
+Hospitalares se adequarem às novas diretrizes da Agencia Nacional de Vigilância Sanitária.
+Derivado do 1º Curso realizado em setembro de 2015, o Evento vem suprir a necessidade
+absoluta da informação sobre o Tema.
+        </p>
+        <p>
+          Será uma grande oportunidade para os Profissionais de Saúde das mais diversas áreas de
+Asssistência Hospitalar, assim como os Gestores de Unidades Públicas e Privadas, de
+disseminação de Conhecimento, Benchmarketing e ampliação da discussão sobre o Tema,
+inserido no dia à dia das Instituições Hospitalares com o objetivo da Melhoria de Processos
+de Trabalho, Interação desses Processos e acima de tudo auxiliar e apoiar os Gestores
+fornecendo Ferramentas importantes para a avaliação dos seus resultados.
+        </p>
+        <p>
+          O Evento pretende mostrar experiências exitosas na área e facilitar a capacitação de
+Profissionais de Saúde que atuam em Ambientes Hospitalares.
+        </p>
 		</div>
 	</section><!--/#sobre-->
 
@@ -185,10 +206,12 @@
     <div class="inscricao-content">
 				<h2>Inscrição</h2>
 
+        <h3>ABERTAS À PARTIR DE 01/03/2017</h3>
+
         <div class="row">
           <div class="col-md-6">
             <h3>Cadastro online</h3>
-            <a href="#" class="btn btn-primary"><i class="fa fa-plus-circle"></i> Cadastro aqui</a>
+            <a href="https://goo.gl/forms/MzRqkvB1UE1BDwEI2" target="_blank" class="btn btn-primary"><i class="fa fa-plus-circle"></i> Cadastro aqui</a>
           </div>
           <div class="col-md-6">
 
@@ -205,8 +228,14 @@
 	<section id="submissao" ng-controller="submissaoCtrl">
     <div class="submissao-content">
         <h2>Submissão</h2>
+        <h3>À PARTIR DE 01/02/2017</h3>
         <p>
-          Informações de submissão aqui
+          LOCAL: Núcleo de Pesquisa e Extensão da ESTACIO FMJ
+        </p>
+        <p>
+            ATT Prof. Modesto Rolim<br>
+            Centro de Estudos Hospital Regional do Cariri<br>
+            ATT Raquel ou Ana Phylomena
         </p>
     </div>
 	</section><!--/#submissao-->
@@ -217,19 +246,26 @@
 				<div class="row">
 					<div class="col-sm-3 col-sm-offset-2">
 						<div class="contact-text">
-							<h3>Contato</h3>
+							<h3>Informações WhatsApp</h3>
 							<address>
-								E-mail: email1@email.com<br>
-								Fone/Whatsapp: telefone
+                088 9 9668 1775 - Erica
+							</address>
+							<address>
+                088 9 9985 8610 - Rosane
+							</address>
+							<address>
+                088 9 9962 3070 – Vitor
+							</address>
+							<address>
+                088 9 9738 5501 – Marco
+							</address>
+							<address>
+                088 9 9930 4169 – Ana Lyres
+							</address>
+							<address>
+                088 9 9734 1299 - Gess
 							</address>
 						</div>
-            <div class="contact-text">
-              <h3>Contato</h3>
-              <address>
-                E-mail: email2@email.com<br>
-                Fone/Whatsapp: telefone
-              </address>
-            </div>
 					</div>
 					<div class="col-sm-5">
 						<div id="contact-section">
@@ -269,9 +305,16 @@
         </div>
     </footer>
     <!--/#footer-->
-
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/moment.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script type="text/javascript" src="js/ui-bootstrap-tpls-2.4.0.min.js"></script>
+
+    <script type="text/javascript" src="js/main.angular.js"></script>
+    <script type="text/javascript" src="js/data.service.js"></script>
+
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
   	<script type="text/javascript" src="js/gmaps.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
@@ -279,13 +322,7 @@
     <script type="text/javascript" src="js/coundown-timer.js"></script>
     <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
     <script type="text/javascript" src="js/jquery.nav.js"></script>
-    <script type="text/javascript" src="js/moment.min.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
-    <script type="text/javascript" src="js/ui-bootstrap-tpls-2.4.0.min.js"></script>
-
-    <script type="text/javascript" src="js/main.angular.js"></script>
-    <script type="text/javascript" src="js/data.service.js"></script>
 
     <script type="text/javascript" src="js/main.js"></script>
 </body>

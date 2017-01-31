@@ -421,10 +421,22 @@ h2 {
   text-transform: uppercase;
 }
 
+.palestra-view-modal h4 {
+  font-size: 22px;
+}
+
+.palestra-view-modal h5 {
+  font-size: 18px;
+}
+
 .palestra-view-modal .palestrante {
 
   text-align: center;
 
+}
+
+.palestra-view-modal .palestrante img {
+  width: 50%;
 }
 
 .single-event {
