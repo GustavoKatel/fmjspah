@@ -11,7 +11,7 @@ angular.module('spah')
         palestrante: {
           nome: 'Dr. Sérgio Araújo',
           cv: '',
-          foto: '/images/microfone.jpg'
+          foto: '/fmjspah/images/microfone.jpg'
         }
       },
       {
@@ -20,7 +20,7 @@ angular.module('spah')
         palestrante: {
           nome: 'Dra. Lívia Siebra',
           cv: 'Advogada inscrita na OAB/CE 28.897. Graduada pela Universidade Regional do Cariri. Pós-graduada em Direito Penal e Criminologia pela URCA. Pós-graduanda em Direito Médico, Hospitalar e da Saúde pela ESMECAM. Especialista em Direito Médico/Hospitalar e da Saúde.',
-          foto: '/images/palestrantes/dra.livia.jpg'
+          foto: '/fmjspah/images/palestrantes/dra.livia.jpg'
         }
       },
       {
@@ -29,7 +29,7 @@ angular.module('spah')
         palestrante: {
           nome: 'A definir',
           cv: '',
-          foto: '/images/microfone.jpg'
+          foto: '/fmjspah/images/microfone.jpg'
         }
       },
       {
@@ -38,7 +38,7 @@ angular.module('spah')
         palestrante: {
           nome: 'A definir',
           cv: '',
-          foto: '/images/microfone.jpg'
+          foto: '/fmjspah/images/microfone.jpg'
         }
       }
     ]
