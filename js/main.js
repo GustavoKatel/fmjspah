@@ -31,6 +31,10 @@ jQuery(function($) {'use strict',
 			$('.main-nav').addClass('fixed-menu animated slideInDown');
 
 		}
+
+    $('.navbar-collapse a').click(function(){
+      $(".navbar-collapse").collapse('hide');
+    });
 	}
 
 	menuToggle();
