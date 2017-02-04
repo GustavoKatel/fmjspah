@@ -405,7 +405,7 @@ h2 {
 **************************/
 #palestras {
   background-color: #33888F;
-  background-image: url("../images/palestras-bg-pattern.png");
+  background-image: url("/images/palestras-bg-pattern.png");
   background-repeat: repeat;
   background-position: 50% 0;
   background-size: contain;
@@ -503,7 +503,7 @@ h2 {
 
 .about-content {
   /*width: 50%;*/
-   background-image: url("../images/about-bg.jpg");
+   background-image: url("/images/about-bg.jpg");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -540,7 +540,7 @@ h2 {
 
 #inscricao {
   background-color: #ecedef;
-  background-image: url("../images/twitter-bg.jpg");
+  background-image: url("/images/twitter-bg.jpg");
   background-position: center bottom;
   background-size: cover;
   background-repeat:no-repeat;
@@ -573,7 +573,7 @@ h2 {
 
 #submissao {
   background-color: #1881a2;
-  background-image: url("../images/submissao-bg.jpg");
+  background-image: url("/images/submissao-bg.jpg");
   background-position:50% 0;
   background-size: cover;
   background-repeat:no-repeat;
@@ -621,7 +621,7 @@ h2 {
 
 .contact-section {
   background-color: #f7ab24;
-  background-image: url("../images/contact-bg.jpg");
+  background-image: url("/images/contact-bg.jpg");
   background-position:60% 0;
   background-size:contain;
   background-repeat:no-repeat;
@@ -703,7 +703,7 @@ h2 {
 
 #footer {
   background-color: #212121;
-  background-image: url("../images/footer-bg.jpg");
+  background-image: url("/images/footer-bg.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
