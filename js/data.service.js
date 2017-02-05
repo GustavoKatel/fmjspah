@@ -11,7 +11,7 @@ angular.module('spah')
         palestrante: {
           nome: 'Dr. Sérgio Araújo',
           cv: '',
-          foto: '/images/microfone.jpg'
+          foto: '/images/palestrantes/dr.sergio.jpeg'
         }
       },
       {
