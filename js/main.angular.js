@@ -116,6 +116,10 @@ angular.module('spah', ['ui.bootstrap'])
 
 })
 
+.controller('miniCursosCtrl', function() {
+
+})
+
 .controller('sobreCtrl', function() {
 
 })
