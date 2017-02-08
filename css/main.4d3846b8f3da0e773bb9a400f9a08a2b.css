@@ -614,6 +614,10 @@ h2 {
   color: #fff;
 }
 
+#submissao a {
+  color: rgb(219, 219, 219);
+}
+
 .light {
   position: absolute;
   right: 0;
