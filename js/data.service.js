@@ -25,7 +25,7 @@ angular.module('spah')
       },
       {
         nome: 'A definir',
-        data_hora: new Date(2017, 1, 10, 15, 0),
+        data_hora: new Date(2017, 1, 1, 15, 0),
         palestrante: {
           nome: 'A definir',
           cv: '',
@@ -34,7 +34,7 @@ angular.module('spah')
       },
       {
         nome: 'A definir',
-        data_hora: new Date(2017, 2, 1, 15, 0),
+        data_hora: new Date(2017, 1, 1, 15, 0),
         palestrante: {
           nome: 'A definir',
           cv: '',
