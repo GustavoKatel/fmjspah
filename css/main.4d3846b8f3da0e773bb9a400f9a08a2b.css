@@ -592,8 +592,8 @@ h2 {
   margin-bottom: 23px;
 }
 
-.miniCursos-content p {
-  font-size: 17px;
+.miniCursos-content ul {
+  font-size: 1.4em;
   font-family: 'Dosis',sans-serif;
 }
 

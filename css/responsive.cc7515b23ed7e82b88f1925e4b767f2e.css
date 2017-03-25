@@ -450,4 +450,8 @@
     right: 7%;
   }
 
+  .miniCursos-content ul {
+    font-size: 1.2em;
+  }
+
 }
