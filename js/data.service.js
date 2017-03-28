@@ -27,9 +27,9 @@ angular.module('spah')
         nome: 'A definir',
         data_hora: new Date(2017, 1, 1, 15, 0),
         palestrante: {
-          nome: 'A definir',
-          cv: '',
-          foto: '/images/microfone.jpg'
+          nome: 'Rosangela Maria Araújo Teles',
+          cv: 'Farmacêutica, gerente da Farmacia do Hospital Regional do Cariri- ISGH, pós-graduanda no curso de Especializaçao em Atençao Farmaceutica',
+          foto: '/images/palestrantes/rosangela.jpg'
         }
       },
       {
