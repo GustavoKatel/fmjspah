@@ -34,11 +34,11 @@ angular.module('spah')
       },
       {
         nome: 'A definir',
-        data_hora: new Date(2017, 1, 1, 15, 0),
+        data_hora: new Date(2017, 4, 3, 15, 0),
         palestrante: {
-          nome: 'A definir',
-          cv: '',
-          foto: '/images/microfone.jpg'
+          nome: 'Rodrigo Luis Mousinho Gomes',
+          cv: 'Formação em Fisioterapia pela UFPE, Pós em UTI e Fisioterapia Cardiorrespiratória pela UFPE, Pós docência do Ensino Superios UNESA, Mestrado em Ciências da Saúde pela UFPE, Fisioterapeuta plantonista da UTI do Hospital São Vicente e Professor Coordenador do curso de Fisioterapia Estácio FMJ',
+          foto: '/images/palestrantes/rodrigo.jpg'
         }
       }
     ]
