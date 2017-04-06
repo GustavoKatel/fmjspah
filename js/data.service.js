@@ -14,6 +14,7 @@ angular.module('spah')
           foto: '/images/palestrantes/dr.sergio.jpeg'
         }
       },
+
       {
         nome: 'Segurança do Paciente e Implicações Jurídicas',
         data_hora: new Date(2017, 4, 2, 19, 0),
@@ -23,6 +24,7 @@ angular.module('spah')
           foto: '/images/palestrantes/dra.livia.jpg'
         }
       },
+
       {
         nome: 'A definir',
         data_hora: new Date(2017, 1, 1, 15, 0),
@@ -32,6 +34,7 @@ angular.module('spah')
           foto: '/images/palestrantes/rosangela.jpg'
         }
       },
+
       {
         nome: 'A definir',
         data_hora: new Date(2017, 4, 3, 15, 0),
@@ -40,7 +43,38 @@ angular.module('spah')
           cv: 'Formação em Fisioterapia pela UFPE, Pós em UTI e Fisioterapia Cardiorrespiratória pela UFPE, Pós docência do Ensino Superios UNESA, Mestrado em Ciências da Saúde pela UFPE, Fisioterapeuta plantonista da UTI do Hospital São Vicente e Professor Coordenador do curso de Fisioterapia Estácio FMJ',
           foto: '/images/palestrantes/rodrigo.jpg'
         }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 3, 15, 0),
+        palestrante: {
+          nome: 'Christianne Andrezza Melo Sobreira',
+          cv: '',
+          foto: '/images/palestrantes/christianne.jpg'
+        }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 3, 15, 0),
+        palestrante: {
+          nome: 'Hermes Melo Teixeira Batista',
+          cv: '',
+          foto: '/images/palestrantes/hermes.jpg'
+        }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 3, 15, 0),
+        palestrante: {
+          nome: 'Thiago Alcanfor',
+          cv: '',
+          foto: '/images/palestrantes/thiago_x480.jpg'
+        }
       }
+
     ]
 
   };
