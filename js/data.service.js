@@ -73,6 +73,16 @@ angular.module('spah')
           cv: 'Pós graduado em Fisioterapia em Terapia Intensiva pela Faculdade Redentor - Rio de Janeiro - RJ. Título de Especialista em Fisioterapia em Terapia Intensiva pela Associação Brasileira de Fisioterapia Cardiovascular, Respiratória e Fisioterapia em Terapia Intensiva - ASSOBRAFIR. Diretor da Regional Ceará da ASSOBRAFIR. Coordenador da Equipe de Fisioterapia do Hospital Regional do Cariri - HRC. Delegado do Conselho de Regional de Fisioterapia e Terapia Ocupacional da 6\' Região - CREFITO6. Docente de Fisioterapia em Terapia Intensiva da Faculdade de Integração do Sertão - FIS - Serra Talhada - PE',
           foto: '/images/palestrantes/thiago_x480.jpg'
         }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 3, 15, 0),
+        palestrante: {
+          nome: 'Demostênia Coelho Rodrigues',
+          cv: 'Diretora Geral do HRC. Bacharel em enfermagem pela UFC. Mestranda em desenvolvimento regional sustentável pela UFCA. Especialista em gestão dos serviços de saúde pela ESP/CE. Especialista em gestão da qualidade em ambientes hospitalares pela ESP/CE. Especialista internacional em qualidade em saúde e segurança do paciente pela FIOCRUZ. Especialista em auditoria nos serviços de saúde pública e privada pelo CEQUALE.',
+          foto: '/images/microfone.jpg'
+        }
       }
 
     ]
