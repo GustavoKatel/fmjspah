@@ -26,8 +26,8 @@ angular.module('spah')
       },
 
       {
-        nome: 'A definir',
-        data_hora: new Date(2017, 1, 1, 15, 0),
+        nome: 'Manejo seguro dos Medicamentos – Da prescrição à conciliação',
+        data_hora: new Date(2017, 4, 5, 21, 30),
         palestrante: {
           nome: 'Rosangela Maria Araújo Teles',
           cv: 'Farmacêutica, gerente da Farmacia do Hospital Regional do Cariri- ISGH, pós-graduanda no curso de Especializaçao em Atençao Farmaceutica',
@@ -46,8 +46,8 @@ angular.module('spah')
       },
 
       {
-        nome: 'A definir',
-        data_hora: new Date(2017, 4, 3, 15, 0),
+        nome: 'Manejo de Hemocomponentes - Fazendo Hemotransfusão Segura',
+        data_hora: new Date(2017, 4, 5, 19, 40),
         palestrante: {
           nome: 'Christianne Andrezza Melo Sobreira',
           cv: 'Mestre em Saúde Coletiva com concentração em Gestão em Saúde e ênfase em hemoterapia. Coordenadora de enfermagem da Agência Transfusional do Hospital Regional do Cariri. Avaliadora do Programa Nacional de Qualificação da Hemorrede.',
@@ -66,8 +66,8 @@ angular.module('spah')
       },
 
       {
-        nome: 'A definir',
-        data_hora: new Date(2017, 4, 3, 15, 0),
+        nome: 'Pneumonia relacionada à Ventilação Mecânica - Como prevenir?',
+        data_hora: new Date(2017, 4, 6, 20, 40),
         palestrante: {
           nome: 'Thiago Alcanfor',
           cv: 'Pós graduado em Fisioterapia em Terapia Intensiva pela Faculdade Redentor - Rio de Janeiro - RJ. Título de Especialista em Fisioterapia em Terapia Intensiva pela Associação Brasileira de Fisioterapia Cardiovascular, Respiratória e Fisioterapia em Terapia Intensiva - ASSOBRAFIR. Diretor da Regional Ceará da ASSOBRAFIR. Coordenador da Equipe de Fisioterapia do Hospital Regional do Cariri - HRC. Delegado do Conselho de Regional de Fisioterapia e Terapia Ocupacional da 6\' Região - CREFITO6. Docente de Fisioterapia em Terapia Intensiva da Faculdade de Integração do Sertão - FIS - Serra Talhada - PE',
@@ -77,7 +77,7 @@ angular.module('spah')
 
       {
         nome: 'A definir',
-        data_hora: new Date(2017, 4, 3, 15, 0),
+        data_hora: new Date(2017, 4, 2, 20, 0),
         palestrante: {
           nome: 'Demostênia Coelho Rodrigues',
           cv: 'Diretora Geral do HRC. Bacharel em enfermagem pela UFC. Mestranda em desenvolvimento regional sustentável pela UFCA. Especialista em gestão dos serviços de saúde pela ESP/CE. Especialista em gestão da qualidade em ambientes hospitalares pela ESP/CE. Especialista internacional em qualidade em saúde e segurança do paciente pela FIOCRUZ. Especialista em auditoria nos serviços de saúde pública e privada pelo CEQUALE.',

@@ -1,6 +1,10 @@
 
 angular.module('spah', ['ui.bootstrap'])
 
+.run(function() {
+
+})
+
 .controller('homeCtrl', function() {
 
 })
@@ -51,14 +55,16 @@ angular.module('spah', ['ui.bootstrap'])
 
 })
 
-.controller('palestrasCtrl', function($scope, spahData, formatDate, $log, $uibModal, $document) {
+.controller('palestrasCtrl', function ($scope, spahData, formatDate, $log, $uibModal, $document, orderByFilter) {
 
   var ctrl = this;
 
+  var palestrasSorted = orderByFilter(spahData.palestras, 'data_hora', false);
+
   ctrl.chunks = [];
   var i=0;
-  while(i < spahData.palestras.length) {
-    ctrl.chunks.push(spahData.palestras.slice(i, i+3));
+  while(i < palestrasSorted.length) {
+    ctrl.chunks.push(palestrasSorted.slice(i, i+3));
     i+=3;
   }
 
