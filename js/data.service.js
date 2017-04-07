@@ -50,7 +50,7 @@ angular.module('spah')
         data_hora: new Date(2017, 4, 3, 15, 0),
         palestrante: {
           nome: 'Christianne Andrezza Melo Sobreira',
-          cv: '',
+          cv: 'Mestre em Saúde Coletiva com concentração em Gestão em Saúde e ênfase em hemoterapia. Coordenadora de enfermagem da Agência Transfusional do Hospital Regional do Cariri. Avaliadora do Programa Nacional de Qualificação da Hemorrede.',
           foto: '/images/palestrantes/christianne.jpg'
         }
       },
@@ -60,7 +60,7 @@ angular.module('spah')
         data_hora: new Date(2017, 4, 3, 15, 0),
         palestrante: {
           nome: 'Hermes Melo Teixeira Batista',
-          cv: '',
+          cv: 'Anestesiologista pela SBA. Membro da sociedade européia de anestesiologia. Mestre em Ciências da Saúde pela FMABC. Especialista em Preceptoria de residencia médica pelo Sírio Libanês',
           foto: '/images/palestrantes/hermes.jpg'
         }
       },
@@ -70,7 +70,7 @@ angular.module('spah')
         data_hora: new Date(2017, 4, 3, 15, 0),
         palestrante: {
           nome: 'Thiago Alcanfor',
-          cv: '',
+          cv: 'Pós graduado em Fisioterapia em Terapia Intensiva pela Faculdade Redentor - Rio de Janeiro - RJ. Título de Especialista em Fisioterapia em Terapia Intensiva pela Associação Brasileira de Fisioterapia Cardiovascular, Respiratória e Fisioterapia em Terapia Intensiva - ASSOBRAFIR. Diretor da Regional Ceará da ASSOBRAFIR. Coordenador da Equipe de Fisioterapia do Hospital Regional do Cariri - HRC. Delegado do Conselho de Regional de Fisioterapia e Terapia Ocupacional da 6\' Região - CREFITO6. Docente de Fisioterapia em Terapia Intensiva da Faculdade de Integração do Sertão - FIS - Serra Talhada - PE',
           foto: '/images/palestrantes/thiago_x480.jpg'
         }
       }
