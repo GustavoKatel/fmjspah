@@ -111,7 +111,7 @@ angular.module('spah')
         palestrante: {
           nome: 'Nárya Maria Gonçalves de Brito',
           cv: 'Gerente de Risco do Hospital Regional do Cariri. Enfermeira do Hospital Regional de Cajazeiras. Especialista em Gestão da Qualidade no Ambiente Hospitalar. Mestranda em Ciências da Saúde.',
-          foto: '/images/microfone.jpg'
+          foto: '/images/palestrantes/narya.jpg'
         }
       }
 
