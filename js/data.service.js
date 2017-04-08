@@ -83,6 +83,36 @@ angular.module('spah')
           cv: 'Diretora Geral do HRC. Bacharel em enfermagem pela UFC. Mestranda em desenvolvimento regional sustentável pela UFCA. Especialista em gestão dos serviços de saúde pela ESP/CE. Especialista em gestão da qualidade em ambientes hospitalares pela ESP/CE. Especialista internacional em qualidade em saúde e segurança do paciente pela FIOCRUZ. Especialista em auditoria nos serviços de saúde pública e privada pelo CEQUALE.',
           foto: '/images/microfone.jpg'
         }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 2, 20, 0),
+        palestrante: {
+          nome: 'Anne Rafaela Tavares de Moura',
+          cv: 'Enfermeira. Coordenadora Geral de Enfermagem do HRC. Enfermeira Operacional do SAMU Juazeiro do Norte. Mestranda em Gestão da Saúde pela UECE. Especialista em Gestão da Qualidade dos Serviços de Saúde pela ESP. Especialista em Enfermagem em Urgência e Emergência pela FIP',
+          foto: '/images/palestrantes/anne_rafaela.jpg'
+        }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 2, 20, 0),
+        palestrante: {
+          nome: 'Monize de Freitas Neuron',
+          cv: 'Enfermeira Formada pela Universidade Regional do Cariri - Campus Avançado de Iguatu CAI. Em 2010. Possui Pós Graduação em Pesquisa e Inovação em Saúde da Família Pela UFC. Enfermeira Socorrista com Curso de APH. Foi Enfermeira Assistencialista em diversos hospitais da região centro sul do estado .Ataundo ainda como Docente e na Preceptoria de estágios da URCA no Curso de Enfermagem.Atualmente sou Coordenadora de Enfermagem Da Unidade de Cuidados Especiais (UCE) e da Unidade de AVC (UAVC) do Hospital Regional do Cariri.',
+          foto: '/images/palestrantes/monize.jpg'
+        }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 2, 20, 0),
+        palestrante: {
+          nome: 'Nárya Maria Gonçalves de Brito',
+          cv: 'Gerente de Risco do Hospital Regional do Cariri. Enfermeira do Hospital Regional de Cajazeiras. Especialista em Gestão da Qualidade no Ambiente Hospitalar. Mestranda em Ciências da Saúde.',
+          foto: '/images/microfone.jpg'
+        }
       }
 
     ]
