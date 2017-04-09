@@ -113,6 +113,16 @@ angular.module('spah')
           cv: 'Gerente de Risco do Hospital Regional do Cariri. Enfermeira do Hospital Regional de Cajazeiras. Especialista em Gestão da Qualidade no Ambiente Hospitalar. Mestranda em Ciências da Saúde.',
           foto: '/images/palestrantes/narya.jpg'
         }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 3, 20, 0),
+        palestrante: {
+          nome: 'Marília Enézia Bezerra de Oliveira',
+          cv: 'Enfermeira - Coordenadora de Enfermagem do Ambulatório e Imagem do Hospital Regional do Cariri. Mestranda em Gestão em Saúde pela UECE. Especialista em Gestão da Qualidade dos Serviços de Saúde pela ESP',
+          foto: '/images/palestrantes/marilia.jpg'
+        }
       }
 
     ]
