@@ -117,7 +117,7 @@ angular.module('spah')
 
       {
         nome: 'A definir',
-        data_hora: new Date(2017, 4, 3, 20, 0),
+        data_hora: new Date(2017, 4, 4, 19, 0),
         palestrante: {
           nome: 'Marília Enézia Bezerra de Oliveira',
           cv: 'Enfermeira - Coordenadora de Enfermagem do Ambulatório e Imagem do Hospital Regional do Cariri. Mestranda em Gestão em Saúde pela UECE. Especialista em Gestão da Qualidade dos Serviços de Saúde pela ESP',
