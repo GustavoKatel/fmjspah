@@ -123,6 +123,16 @@ angular.module('spah')
           cv: 'Enfermeira - Coordenadora de Enfermagem do Ambulatório e Imagem do Hospital Regional do Cariri. Mestranda em Gestão em Saúde pela UECE. Especialista em Gestão da Qualidade dos Serviços de Saúde pela ESP',
           foto: '/images/palestrantes/marilia.jpg'
         }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 4, 19, 0),
+        palestrante: {
+          nome: 'Fernanda Maria Silva',
+          cv: 'Enfermeira pela Universidade Estadual dá Paraíba; Especialista em.Estomaterapia pela Universidade Estadual do Ceará; Especialista em Ensino em.Saude pela Universidade Federal do Ceará; Especialista em Saúde da Família pela Faculdade de Medicina de Juazeiro; Mestre em.Saude dá Família pela RENASF/ FIOCRUZ/URCA',
+          foto: '/images/palestrantes/fernanda.jpg'
+        }
       }
 
     ]
