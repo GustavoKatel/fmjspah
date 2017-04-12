@@ -133,6 +133,16 @@ angular.module('spah')
           cv: 'Enfermeira pela Universidade Estadual dá Paraíba; Especialista em.Estomaterapia pela Universidade Estadual do Ceará; Especialista em Ensino em.Saude pela Universidade Federal do Ceará; Especialista em Saúde da Família pela Faculdade de Medicina de Juazeiro; Mestre em.Saude dá Família pela RENASF/ FIOCRUZ/URCA',
           foto: '/images/palestrantes/fernanda.jpg'
         }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 4, 19, 0),
+        palestrante: {
+          nome: 'Clarissa Gondim de Souza',
+          cv: 'Coordenadora de Enfermagem da CME/HRC. Bacharel em Enfermagem pela UNILEÃO. Professional and Self Coach pelo Instituto Brasileiro de Coaching - IBC. MBA em Gestão Empresarial com ênfase em liderança pelo Centro Universitário São Camilo. Especialista em Centro Cirúrgico, CME e SRPA pelo Centro Universitário São Camilo. Especialista em Gestão da Qualidade  em Ambientes Hospitalares pela ESP/ CE',
+          foto: '/images/palestrantes/clarissa.jpg'
+        }
       }
 
     ]
