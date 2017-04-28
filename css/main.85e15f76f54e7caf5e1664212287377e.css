@@ -759,3 +759,58 @@ h2 {
 .gs {
   font-size: 0.8em;
 }
+
+
+/*************************
+******programacao CSS****
+**************************/
+#programacao {
+  min-height: 700px;
+  /*background-color: #F78847;*/
+  background-color: #EAD2AC;
+  /*background-image: url("../images/calendar.png");*/
+  /*background-size: initial;*/
+  /*background-position: center center;*/
+}
+
+#programacao-content {
+  padding-top: 70px;
+  min-height: 700px;
+}
+
+#programacao .programacao-title::before {
+  content: "• ";
+}
+
+#programacao .programacao-title {
+  font-weight: bold;
+}
+
+#programacao-carousel {
+  min-height: 700px;
+}
+
+#programacao-carousel .carousel-inner {
+  /*overflow-y: auto;*/
+  min-height: 700px;
+}
+
+#programacao .item {
+  min-height: 250px;
+}
+
+#programacao .carousel-control.left,
+#programacao .carousel-control.right {
+  background-color: initial;
+  background-image: initial;
+  color: #0095d9;
+}
+
+#programacao .carousel-caption {
+  color: #616161;
+  padding-top: 0px;
+  top: inherit;
+  bottom: inherit;
+  text-shadow: initial;
+  text-align: left;
+}

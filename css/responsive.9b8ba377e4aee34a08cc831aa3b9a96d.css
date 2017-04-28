@@ -54,6 +54,16 @@
 
 }
 
+/* special case */
+@media (min-width: 768px) {
+  #programacao {
+    background-image: url("../images/calendar.png");
+    background-size: initial;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+}
+
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -275,6 +285,14 @@
   .about-content {
     width: 100%;
     padding: 70px 25px 110px;
+  }
+
+  #programacao {
+    background-size: 80%;
+    background-image: url("../images/calendar.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
   }
 
 }
