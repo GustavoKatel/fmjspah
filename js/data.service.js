@@ -143,6 +143,26 @@ angular.module('spah')
           cv: 'Coordenadora de Enfermagem da CME/HRC. Bacharel em Enfermagem pela UNILEÃO. Professional and Self Coach pelo Instituto Brasileiro de Coaching - IBC. MBA em Gestão Empresarial com ênfase em liderança pelo Centro Universitário São Camilo. Especialista em Centro Cirúrgico, CME e SRPA pelo Centro Universitário São Camilo. Especialista em Gestão da Qualidade  em Ambientes Hospitalares pela ESP/ CE',
           foto: '/images/palestrantes/clarissa.jpg'
         }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 4, 19, 0),
+        palestrante: {
+          nome: 'Marília Tricya Martins Silva',
+          cv: 'Nutricionista- Graduação pela Universidade Federal do Piauí. Pós graduada em Nutrição Clínica pela Facinter/Ibepex. Professora do Curso de Terapia Nutricional Enteral e Parenteral no adulto e no idoso, Cegetec/ Juazeiro do Norte. Nutricionista Clínica do Hospital Regional do Cariri, Juazeiro do Norte.',
+          foto: '/images/palestrantes/marilia_trycia.jpg'
+        }
+      },
+
+      {
+        nome: 'A definir',
+        data_hora: new Date(2017, 4, 4, 19, 0),
+        palestrante: {
+          nome: 'Iratyenne Bentes',
+          cv: 'Graduada em enfermagem pela Universidade Regional do Cariri (2009). Especialista em Bloco Cirúrgico e Clinica Médica pelo centro de treinamento São Camilo - unidade Cariri. Enfermeira do Hospital Regional do Cariri (HRC), no setor de Centro cirúrgico e Sala de Recuperação pós anestésica(2013-2017). É presidente da Comissão de Ética de Enfermagem do HRC.',
+          foto: '/images/palestrantes/iratyenne.jpg'
+        }
       }
 
     ]
