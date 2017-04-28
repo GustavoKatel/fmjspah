@@ -765,12 +765,14 @@ h2 {
 ******programacao CSS****
 **************************/
 #programacao {
+  font-size: 1.5em;
   min-height: 700px;
   /*background-color: #F78847;*/
   background-color: #EAD2AC;
-  /*background-image: url("../images/calendar.png");*/
-  /*background-size: initial;*/
-  /*background-position: center center;*/
+  background-image: url("../images/calendar.png");
+  background-size: initial;
+  background-position: center bottom;
+  background-blend-mode: luminosity;
 }
 
 #programacao-content {
